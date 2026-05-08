@@ -74,5 +74,12 @@ TORCHIM: Private. Encrypted. Essential. Bringing back the freedom of the early W
 
 
 
-⚠️ Security Notice: Transport layer is protected by Tor encryption. However, message content is currently transmitted in plaintext at the P2P protocol level. End-to-end encryption (Double Ratchet / Signal Protocol) is planned for Phase 2. This build is intended for testing purposes only — do not use for sensitive communications.
+⚠️ Security Notice: Transport layer is protected by Tor encryption. Text messages now use experimental P2P session encryption based on X25519 + HKDF-SHA256 + ChaCha20-Poly1305 when a session handshake is established.
+
+This is not yet Signal Protocol / Double Ratchet, has not been audited, and some metadata or fallback paths may remain unencrypted.
+
+Offline message delivery is not implemented yet, so both clients should be online at the same time for reliable message delivery.
+
+This build is for testing only — do not use for highly sensitive communications yet.
+
 
