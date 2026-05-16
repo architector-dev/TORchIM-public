@@ -1,6 +1,40 @@
 {
+  "items": [
+    {
+      "badge": "pre-alpha update",
+      "title": "Project News Feed Upgrade",
+      "body": "The welcome screen news block now supports cached project news, manual refresh, offline fallback, and an expanded All news view. New updates can be published by adding a news item to the top of this file.",
+      "effect": "pulse"
+    },
+    {
+      "badge": "delivery",
+      "title": "P2P Message Delivery Queue",
+      "body": "Message delivery was improved by keeping queued text as plaintext until a ready encrypted transport session is available. This reduces reconnect and session-key race issues during Tor warm-up.",
+      "effect": "none"
+    },
+    {
+      "badge": "interface",
+      "title": "CSS and UI Polishing",
+      "body": "Recent theme work cleaned up chat input colors, sidebar spacing, and small visual inconsistencies across the desktop interface.",
+      "effect": "none"
+    },
+    {
   "badge": "alpha update",
   "title": "Help, Options and News",
   "body": "TORchIM is getting a help screen, options tab and safer project news feed.",
-  "effect": "pulse"
+  "effect": "none"
+    },
+    {
+      "badge": "messages",
+      "title": "Message Queue Fixes",
+      "body": "Queued message handling was tightened so pending messages are retried more predictably after reconnects and slow Tor onion availability.",
+      "effect": "none"
+    },
+    {
+      "badge": "contacts",
+      "title": "Contact List Reliability",
+      "body": "Contact list rendering and unread message indicators were improved, including fixes for empty contact cells and notification badges in the sidebar.",
+      "effect": "none"
+    }
+  ]
 }
