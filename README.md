@@ -46,7 +46,7 @@ UX: Message reply/quote, forward, copy, and delete.
 
 Insights: Real-time Tor circuit info (Guard / Middle / Exit nodes).
 
-Personalization: Three unique UI themes.
+Personalization: 12 UI themes.
 
 🚀 Getting Started
 Current Version: v0.1.2 - Pre-Alpha Release
