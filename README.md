@@ -1,6 +1,19 @@
 # TORchIM-public
 TORchIM — Anonymous Tor P2P Messenger using Tor Onion Services. End-to-end encrypted decentralized peer-to-peer messenger with BIP39 identity.
 
+It uses Tor Onion Services for direct communication without central servers, provides end-to-end encryption, and derives identities from BIP39 mnemonic phrases.
+
+Features
+
+- Tor Onion Services
+- P2P architecture
+- End-to-End Encryption
+- Anonymous identities
+- No central server
+- BIP39 recovery phrase
+- Cross-platform
+
+  
 Status: Phase 1 — active development
 License: AGPL v3 (core) · Commercial (services)
 Language: Java 21
@@ -46,14 +59,16 @@ UX: Message reply/quote, forward, copy, and delete.
 
 Insights: Real-time Tor circuit info (Guard / Middle / Exit nodes).
 
-Personalization: 12 UI themes.
+Personalization: 12 UI themes (PC).
 
 🚀 Getting Started
 Current Version: v0.1.2 - Pre-Alpha Release
-Target Platform: Desktop (Windows 10/11, Linux, macOS) & Headless nodes.
+Target Platform: Desktop (Windows 10/11, Linux, macOS, Android) & Headless nodes.
 
 [!IMPORTANT]
-Security Notice: Transport layer is protected by Tor encryption. However, message content is currently transmitted in plaintext at the P2P protocol level. End-to-end encryption (Double Ratchet / Signal Protocol) is planned for Phase 2.
+Security model. All traffic between two devices is end-to-end encrypted and authenticated by Tor's v3 onion-service protocol: each device runs its own hidden service, and the .onion address is the device's public key. No relay, rendezvous node, or server can read message content in transit — there is no server at all. This is the same transport-security model as Ricochet-Refresh.
+
+Not yet implemented: an additional application-layer encryption ratchet (Signal-style Double Ratchet) on top of Tor, which would add forward secrecy and post-compromise security independent of the Tor layer. This is planned for Phase 2. Until then, in-transit confidentiality relies solely on Tor's onion encryption, and messages are stored locally without an extra at-rest layer beyond device storage.
 
 This build is for testing purposes only — do not use for highly sensitive communications.
 
