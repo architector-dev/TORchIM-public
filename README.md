@@ -97,4 +97,4 @@ Offline message delivery is not implemented yet, so both clients should be onlin
 
 This build is for testing only — do not use for highly sensitive communications yet.
 
-
+Releases, documentation, and feature information are currently being published, and the source code status will be determined later.
