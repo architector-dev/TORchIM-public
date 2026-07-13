@@ -1,5 +1,5 @@
 # TORchIM-public
-Decentralized · Anonymous · Encrypted messenger over Tor
+TORchIM — Anonymous Tor P2P Messenger using Tor Onion Services. End-to-end encrypted decentralized peer-to-peer messenger with BIP39 identity.
 
 Status: Phase 1 — active development
 License: AGPL v3 (core) · Commercial (services)
