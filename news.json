@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "badge": "alpha release",
+      "title": "TORchIM 0.1.3.25 Alpha",
+      "body": "A new Windows alpha build is available on GitHub. It adds contact tags and folders, host-relayed Temporary Groups, invitation and member-state improvements, stable sidebar ordering, and related UI and localization fixes.",
+      "effect": "pulse"
+    },
+    {
       "badge": "pre-alpha update",
       "title": "Project News Feed Upgrade",
       "body": "The welcome screen news block now supports cached project news, manual refresh, offline fallback, and an expanded All news view. New updates can be published by adding a news item to the top of this file.",
