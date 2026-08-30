@@ -1,24 +1,24 @@
 {
-  "schemaVersion": 1,
-  "releaseId": "0.1.4.30-alpha-windows-x64",
-  "version": "0.1.4.30-alpha",
-  "channel": "alpha",
-  "publishedAt": "2026-08-30T17:28:27.1824997+00:00",
-  "minimumVersion": "0.1.4.0",
-  "notes": "Portable updater alpha with multiline status text and Windows portable replacement helper.",
-  "artifact": {
-    "platform": "windows",
-    "architecture": "x64",
-    "packageType": "app-image-zip",
-    "fileName": "TORchIM-0.1.4.30-alpha-portable-win.zip",
-    "size": 163498272,
-    "sha256": "0884b970cb4957c04d56ed21949cc85dbc633b346831cb963445a55538dc1178",
-    "mirrors": [
-      {
-        "id": "github",
-        "priority": 100,
-        "url": "https://github.com/architector-dev/TORchIM-public/releases/download/v0.1.4.30/TORchIM-0.1.4.30-alpha-portable-win.zip"
-      }
-    ]
-  }
+    "schemaVersion":  1,
+    "releaseId":  "0.1.4.32-alpha-windows-x64",
+    "version":  "0.1.4.32-alpha",
+    "channel":  "alpha",
+    "publishedAt":  "2026-08-30T19:57:21.2421948+00:00",
+    "minimumVersion":  "0.1.4.0",
+    "notes":  "TORchIM alpha update with portable updater restart and cached package reuse fixes.",
+    "artifact":  {
+                     "platform":  "windows",
+                     "architecture":  "x64",
+                     "packageType":  "app-image-zip",
+                     "fileName":  "TORchIM-0.1.4.32-alpha-portable-win.zip",
+                     "size":  163498820,
+                     "sha256":  "a91acf1a822a43c6bf842d2421ffb286584f7b3c34943867f78116dabef431a8",
+                     "mirrors":  [
+                                     {
+                                         "id":  "github",
+                                         "priority":  100,
+                                         "url":  "https://github.com/architector-dev/TORchIM-public/releases/download/v0.1.4.32/TORchIM-0.1.4.32-alpha-portable-win.zip"
+                                     }
+                                 ]
+                 }
 }
