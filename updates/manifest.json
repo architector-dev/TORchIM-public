@@ -1,23 +1,23 @@
 {
     "schemaVersion":  1,
-    "releaseId":  "0.1.4.35-alpha-windows-x64",
-    "version":  "0.1.4.35-alpha",
+    "releaseId":  "0.1.4.36-alpha-windows-x64",
+    "version":  "0.1.4.36-alpha",
     "channel":  "alpha",
-    "publishedAt":  "2026-08-31T10:13:57.1331066+00:00",
+    "publishedAt":  "2026-08-31T11:12:39.5861222+00:00",
     "minimumVersion":  "0.1.4.0",
-    "notes":  "TORchIM alpha update with cached install restore and portable backup retention.",
+    "notes":  "TORchIM alpha update with release publishing helper coverage.",
     "artifact":  {
                      "platform":  "windows",
                      "architecture":  "x64",
                      "packageType":  "app-image-zip",
-                     "fileName":  "TORchIM-0.1.4.35-alpha-portable-win.zip",
-                     "size":  163505968,
-                     "sha256":  "ad06d4dc773a5c8767d00f524ab10c22d8e419a3a249aedc0a4e90f516ba8f6b",
+                     "fileName":  "TORchIM-0.1.4.36-alpha-portable-win.zip",
+                     "size":  163505978,
+                     "sha256":  "8c5ca7449fcd92e8a7242451a432d13823fdf2d184757a2479e90e0c468303da",
                      "mirrors":  [
                                      {
                                          "id":  "github",
                                          "priority":  100,
-                                         "url":  "https://github.com/architector-dev/TORchIM-public/releases/download/v0.1.4.35/TORchIM-0.1.4.35-alpha-portable-win.zip"
+                                         "url":  "https://github.com/architector-dev/TORchIM-public/releases/download/v0.1.4.36/TORchIM-0.1.4.36-alpha-portable-win.zip"
                                      }
                                  ]
                  }
