@@ -1,24 +1,24 @@
 {
-    "schemaVersion":  1,
-    "releaseId":  "0.1.4.36-alpha-windows-x64",
-    "version":  "0.1.4.36-alpha",
-    "channel":  "alpha",
-    "publishedAt":  "2026-08-31T11:12:39.5861222+00:00",
-    "minimumVersion":  "0.1.4.0",
-    "notes":  "TORchIM alpha update with release publishing helper coverage.",
-    "artifact":  {
-                     "platform":  "windows",
-                     "architecture":  "x64",
-                     "packageType":  "app-image-zip",
-                     "fileName":  "TORchIM-0.1.4.36-alpha-portable-win.zip",
-                     "size":  163505978,
-                     "sha256":  "8c5ca7449fcd92e8a7242451a432d13823fdf2d184757a2479e90e0c468303da",
-                     "mirrors":  [
-                                     {
-                                         "id":  "github",
-                                         "priority":  100,
-                                         "url":  "https://github.com/architector-dev/TORchIM-public/releases/download/v0.1.4.36/TORchIM-0.1.4.36-alpha-portable-win.zip"
-                                     }
-                                 ]
-                 }
+  "schemaVersion": 1,
+  "releaseId": "0.1.4.51-alpha-windows-x64",
+  "version": "0.1.4.51-alpha",
+  "channel": "alpha",
+  "publishedAt": "2026-09-04T14:59:22.2040518+00:00",
+  "minimumVersion": "0.1.4.0",
+  "notes": "TORchIM alpha updater validation release with resumable downloads and graceful JavaFX shutdown.",
+  "artifact": {
+    "platform": "windows",
+    "architecture": "x64",
+    "packageType": "app-image-zip",
+    "fileName": "TORchIM-0.1.4.51-alpha-portable-win.zip",
+    "size": 163572457,
+    "sha256": "1b1d3f538138572f649e7d19556643edb563f0479c2e9db37240770ad5404ba9",
+    "mirrors": [
+      {
+        "id": "github",
+        "priority": 100,
+        "url": "https://github.com/architector-dev/TORchIM-public/releases/download/v0.1.4.51/TORchIM-0.1.4.51-alpha-portable-win.zip"
+      }
+    ]
+  }
 }
