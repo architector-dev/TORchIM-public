@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "badge": "security update",
+      "title": "TORchIM 0.1.4.161 Alpha",
+      "body": "This release updates the bundled Tor client to 0.4.9.12, which addresses a series of high-severity security issues reported by the Tor Project. Updating is strongly recommended. Portable Windows x64 builds were manually tested on Windows 10 and Windows 11.",
+      "effect": "pulse"
+    },
+    {
       "badge": "alpha release",
       "title": "TORchIM 0.1.4.51 Alpha",
       "body": "IMPORTANT: PROTOCOL COMPATIBILITY. The incompatibility is intentional and limited to the peer transport protocol. The protocol was hardened after v0.1.4.36 with signed Ed25519 session identity binding, and v0.1.4.51 rejects legacy unsigned handshakes fail-closed.",
