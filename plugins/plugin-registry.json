@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T15:58:41.7818204+00:00",
+  "expiresAt": "2026-09-21T15:58:41.7818204+00:00",
+  "publisherKeys": [
+    {
+      "keyId": "torchim-official-plugins-2026-01",
+      "publisher": "TORchIM",
+      "trust": "official",
+      "publicKey": "MCowBQYDK2VwAyEAw1FQSojbudNC8sHpBRjUi8gUmu1yqdXwafcvZdzospQ=",
+      "replacesKeyId": "",
+      "validFrom": "2026-09-13T15:22:15.4203703+00:00",
+      "validUntil": "",
+      "revokedAt": "",
+      "revocationReason": ""
+    }
+  ],
+  "plugins": [
+    {
+      "id": "org.torchim.diagnostics",
+      "name": "SDK Diagnostics",
+      "summary": "Internal Plugin Runtime validation",
+      "version": "0.1.0-alpha.1",
+      "channel": "alpha",
+      "publisherKeyId": "torchim-official-plugins-2026-01",
+      "trust": "official",
+      "packageSha256": "48a1556eaa65eec6a49ff623ae29917e6d1e43291637fef4913d476a290d212c",
+      "size": 14726,
+      "mirrors": [
+        {
+          "id": "primary",
+          "url": "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.diagnostics-v0.1.0-alpha.1/org.torchim.diagnostics-0.1.0-alpha.1.tplugin"
+        }
+      ],
+      "compatibility": {
+        "hostMin": "0.1.4.0",
+        "hostMax": "0.x",
+        "api": "1"
+      },
+      "permissions": [
+        {
+          "id": "storage.local",
+          "risk": "low",
+          "reason": "Stores an internal SDK runtime health marker."
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "minimumSafeVersion": "0.1.0-alpha.1",
+      "revoked": false
+    }
+  ],
+  "revocations": []
+}
