@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T14:32:51.5504061+00:00",
-  "expiresAt": "2026-09-29T14:32:51.5504061+00:00",
+  "generatedAt": "2026-09-24T17:35:01.1853108+00:00",
+  "expiresAt": "2026-10-01T17:35:01.1853108+00:00",
   "publisherKeys": [
     {
       "keyId": "torchim-official-plugins-2026-01",
@@ -42,6 +42,44 @@
           "id": "storage.local",
           "risk": "low",
           "reason": "Stores an internal SDK runtime health marker."
+        }
+      ],
+      "dependencies": [],
+      "conflicts": [],
+      "minimumSafeVersion": "0.1.0-alpha.1",
+      "revoked": false
+    },
+    {
+      "id": "org.torchim.onion-check",
+      "name": "Onion Check",
+      "summary": "Checks onion and web endpoints through Tor",
+      "version": "0.1.0-alpha.1",
+      "channel": "alpha",
+      "publisherKeyId": "torchim-official-plugins-2026-01",
+      "trust": "official",
+      "packageSha256": "a97ad620b4723b6e2aa23b183844e44f30939640d5d20bbfd2861c4bd54dd6fe",
+      "size": 13596,
+      "mirrors": [
+        {
+          "id": "primary",
+          "url": "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.onion-check-v0.1.0-alpha.1/org.torchim.onion-check-0.1.0-alpha.1.tplugin"
+        }
+      ],
+      "compatibility": {
+        "hostMin": "0.1.4.0",
+        "hostMax": "0.x",
+        "api": "1"
+      },
+      "permissions": [
+        {
+          "id": "ui.panel",
+          "risk": "low",
+          "reason": "Shows the Onion Check panel in Settings > Plugins."
+        },
+        {
+          "id": "network.tor",
+          "risk": "medium",
+          "reason": "Checks endpoint reachability through the local Tor SOCKS proxy."
         }
       ],
       "dependencies": [],
