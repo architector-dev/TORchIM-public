@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-09-27T17:26:35.2074522+00:00",
-    "expiresAt":  "2026-10-04T17:26:35.2074522+00:00",
+    "generatedAt":  "2026-09-27T20:51:07.7462772+00:00",
+    "expiresAt":  "2026-10-04T20:51:07.7462772+00:00",
     "publisherKeys":  [
                           {
                               "keyId":  "torchim-official-plugins-2026-01",
@@ -20,16 +20,16 @@
                         "id":  "org.torchim.darknet-link-catalog",
                         "name":  "Darknet Link Catalog",
                         "summary":  "Browse darknet and web link references with Tor reachability checks. Open from Services -\u003e DLC.",
-                        "version":  "0.1.0-alpha.4",
+                        "version":  "0.1.0-alpha.5",
                         "channel":  "alpha",
                         "publisherKeyId":  "torchim-official-plugins-2026-01",
                         "trust":  "official",
-                        "packageSha256":  "92c320882d7d3c4cef17ab2ad510cf200edc74f748b0aa5dec9822445790385d",
-                        "size":  17379,
+                        "packageSha256":  "3842fbc27562d30093aec66014f7ca2943a3e3401443655efc27f7f10497802b",
+                        "size":  17378,
                         "mirrors":  [
                                         {
                                             "id":  "primary",
-                                            "url":  "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.darknet-link-catalog-v0.1.0-alpha.4/org.torchim.darknet-link-catalog-0.1.0-alpha.4.tplugin"
+                                            "url":  "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.darknet-link-catalog-v0.1.0-alpha.5/org.torchim.darknet-link-catalog-0.1.0-alpha.5.tplugin"
                                         }
                                     ],
                         "compatibility":  {
@@ -64,7 +64,7 @@
                         "conflicts":  [
 
                                       ],
-                        "minimumSafeVersion":  "0.1.0-alpha.4",
+                        "minimumSafeVersion":  "0.1.0-alpha.5",
                         "revoked":  false
                     },
                     {
