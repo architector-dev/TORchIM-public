@@ -1,141 +1,153 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-27T09:59:27.2492800+00:00",
-  "expiresAt": "2026-10-04T09:59:27.2492800+00:00",
-  "publisherKeys": [
-    {
-      "keyId": "torchim-official-plugins-2026-01",
-      "publisher": "TORchIM",
-      "trust": "official",
-      "publicKey": "MCowBQYDK2VwAyEAw1FQSojbudNC8sHpBRjUi8gUmu1yqdXwafcvZdzospQ=",
-      "replacesKeyId": "",
-      "validFrom": "2026-09-13T15:22:15.4203703+00:00",
-      "validUntil": "",
-      "revokedAt": "",
-      "revocationReason": ""
-    }
-  ],
-  "plugins": [
-    {
-      "id": "org.torchim.darknet-link-catalog",
-      "name": "Darknet Link Catalog",
-      "summary": "Browse darknet and web link references with Tor reachability checks. Open from Services -> DLC.",
-      "version": "0.1.0-alpha.3",
-      "channel": "alpha",
-      "publisherKeyId": "torchim-official-plugins-2026-01",
-      "trust": "official",
-      "packageSha256": "c3a1d156319fb77e7fe401b498e10c583a3594e8254825ea2d32aebd7f7bd959",
-      "size": 16215,
-      "mirrors": [
-        {
-          "id": "primary",
-          "url": "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.darknet-link-catalog-v0.1.0-alpha.3/org.torchim.darknet-link-catalog-0.1.0-alpha.3.tplugin"
-        }
-      ],
-      "compatibility": {
-        "hostMin": "0.1.4.0",
-        "hostMax": "0.x",
-        "api": "1"
-      },
-      "permissions": [
-        {
-          "id": "ui.service",
-          "risk": "low",
-          "reason": "Shows Darknet Link Catalog in the Services sidebar."
-        },
-        {
-          "id": "ui.panel",
-          "risk": "low",
-          "reason": "Shows catalog details and link actions inside TORchIM."
-        },
-        {
-          "id": "network.tor",
-          "risk": "medium",
-          "reason": "Checks onion and web endpoint reachability through the local Tor SOCKS proxy."
-        }
-      ],
-      "dependencies": [
-        {
-          "id": "org.torchim.onion-check",
-          "version": "0.1.0-alpha.1",
-          "optional": true
-        }
-      ],
-      "conflicts": [],
-      "minimumSafeVersion": "0.1.0-alpha.3",
-      "revoked": false
-    },
-    {
-      "id": "org.torchim.diagnostics",
-      "name": "SDK Diagnostics",
-      "summary": "Internal Plugin Runtime validation",
-      "version": "0.1.0-alpha.1",
-      "channel": "alpha",
-      "publisherKeyId": "torchim-official-plugins-2026-01",
-      "trust": "official",
-      "packageSha256": "48a1556eaa65eec6a49ff623ae29917e6d1e43291637fef4913d476a290d212c",
-      "size": 14726,
-      "mirrors": [
-        {
-          "id": "primary",
-          "url": "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.diagnostics-v0.1.0-alpha.1/org.torchim.diagnostics-0.1.0-alpha.1.tplugin"
-        }
-      ],
-      "compatibility": {
-        "hostMin": "0.1.4.0",
-        "hostMax": "0.x",
-        "api": "1"
-      },
-      "permissions": [
-        {
-          "id": "storage.local",
-          "risk": "low",
-          "reason": "Stores an internal SDK runtime health marker."
-        }
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "minimumSafeVersion": "0.1.0-alpha.1",
-      "revoked": false
-    },
-    {
-      "id": "org.torchim.onion-check",
-      "name": "Onion Check",
-      "summary": "Checks onion and web endpoints through Tor",
-      "version": "0.1.0-alpha.1",
-      "channel": "alpha",
-      "publisherKeyId": "torchim-official-plugins-2026-01",
-      "trust": "official",
-      "packageSha256": "a97ad620b4723b6e2aa23b183844e44f30939640d5d20bbfd2861c4bd54dd6fe",
-      "size": 13596,
-      "mirrors": [
-        {
-          "id": "primary",
-          "url": "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.onion-check-v0.1.0-alpha.1/org.torchim.onion-check-0.1.0-alpha.1.tplugin"
-        }
-      ],
-      "compatibility": {
-        "hostMin": "0.1.4.0",
-        "hostMax": "0.x",
-        "api": "1"
-      },
-      "permissions": [
-        {
-          "id": "ui.panel",
-          "risk": "low",
-          "reason": "Shows the Onion Check panel in Settings > Plugins."
-        },
-        {
-          "id": "network.tor",
-          "risk": "medium",
-          "reason": "Checks endpoint reachability through the local Tor SOCKS proxy."
-        }
-      ],
-      "dependencies": [],
-      "conflicts": [],
-      "minimumSafeVersion": "0.1.0-alpha.1",
-      "revoked": false
-    }
-  ],
-  "revocations": []
+    "schemaVersion":  1,
+    "generatedAt":  "2026-09-27T17:26:35.2074522+00:00",
+    "expiresAt":  "2026-10-04T17:26:35.2074522+00:00",
+    "publisherKeys":  [
+                          {
+                              "keyId":  "torchim-official-plugins-2026-01",
+                              "publisher":  "TORchIM",
+                              "trust":  "official",
+                              "publicKey":  "MCowBQYDK2VwAyEAw1FQSojbudNC8sHpBRjUi8gUmu1yqdXwafcvZdzospQ=",
+                              "replacesKeyId":  "",
+                              "validFrom":  "2026-09-13T15:22:15.4203703+00:00",
+                              "validUntil":  "",
+                              "revokedAt":  "",
+                              "revocationReason":  ""
+                          }
+                      ],
+    "plugins":  [
+                    {
+                        "id":  "org.torchim.darknet-link-catalog",
+                        "name":  "Darknet Link Catalog",
+                        "summary":  "Browse darknet and web link references with Tor reachability checks. Open from Services -\u003e DLC.",
+                        "version":  "0.1.0-alpha.4",
+                        "channel":  "alpha",
+                        "publisherKeyId":  "torchim-official-plugins-2026-01",
+                        "trust":  "official",
+                        "packageSha256":  "92c320882d7d3c4cef17ab2ad510cf200edc74f748b0aa5dec9822445790385d",
+                        "size":  17379,
+                        "mirrors":  [
+                                        {
+                                            "id":  "primary",
+                                            "url":  "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.darknet-link-catalog-v0.1.0-alpha.4/org.torchim.darknet-link-catalog-0.1.0-alpha.4.tplugin"
+                                        }
+                                    ],
+                        "compatibility":  {
+                                              "hostMin":  "0.1.4.0",
+                                              "hostMax":  "0.x",
+                                              "api":  "1"
+                                          },
+                        "permissions":  [
+                                            {
+                                                "id":  "ui.service",
+                                                "risk":  "low",
+                                                "reason":  "Shows Darknet Link Catalog in the Services sidebar."
+                                            },
+                                            {
+                                                "id":  "ui.panel",
+                                                "risk":  "low",
+                                                "reason":  "Shows catalog details and link actions inside TORchIM."
+                                            },
+                                            {
+                                                "id":  "network.tor",
+                                                "risk":  "medium",
+                                                "reason":  "Checks onion and web endpoint reachability through the local Tor SOCKS proxy."
+                                            }
+                                        ],
+                        "dependencies":  [
+                                             {
+                                                 "id":  "org.torchim.onion-check",
+                                                 "version":  "0.1.0-alpha.1",
+                                                 "optional":  true
+                                             }
+                                         ],
+                        "conflicts":  [
+
+                                      ],
+                        "minimumSafeVersion":  "0.1.0-alpha.4",
+                        "revoked":  false
+                    },
+                    {
+                        "id":  "org.torchim.diagnostics",
+                        "name":  "SDK Diagnostics",
+                        "summary":  "Internal Plugin Runtime validation",
+                        "version":  "0.1.0-alpha.1",
+                        "channel":  "alpha",
+                        "publisherKeyId":  "torchim-official-plugins-2026-01",
+                        "trust":  "official",
+                        "packageSha256":  "48a1556eaa65eec6a49ff623ae29917e6d1e43291637fef4913d476a290d212c",
+                        "size":  14726,
+                        "mirrors":  [
+                                        {
+                                            "id":  "primary",
+                                            "url":  "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.diagnostics-v0.1.0-alpha.1/org.torchim.diagnostics-0.1.0-alpha.1.tplugin"
+                                        }
+                                    ],
+                        "compatibility":  {
+                                              "hostMin":  "0.1.4.0",
+                                              "hostMax":  "0.x",
+                                              "api":  "1"
+                                          },
+                        "permissions":  [
+                                            {
+                                                "id":  "storage.local",
+                                                "risk":  "low",
+                                                "reason":  "Stores an internal SDK runtime health marker."
+                                            }
+                                        ],
+                        "dependencies":  [
+
+                                         ],
+                        "conflicts":  [
+
+                                      ],
+                        "minimumSafeVersion":  "0.1.0-alpha.1",
+                        "revoked":  false
+                    },
+                    {
+                        "id":  "org.torchim.onion-check",
+                        "name":  "Onion Check",
+                        "summary":  "Checks onion and web endpoints through Tor",
+                        "version":  "0.1.0-alpha.1",
+                        "channel":  "alpha",
+                        "publisherKeyId":  "torchim-official-plugins-2026-01",
+                        "trust":  "official",
+                        "packageSha256":  "a97ad620b4723b6e2aa23b183844e44f30939640d5d20bbfd2861c4bd54dd6fe",
+                        "size":  13596,
+                        "mirrors":  [
+                                        {
+                                            "id":  "primary",
+                                            "url":  "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.onion-check-v0.1.0-alpha.1/org.torchim.onion-check-0.1.0-alpha.1.tplugin"
+                                        }
+                                    ],
+                        "compatibility":  {
+                                              "hostMin":  "0.1.4.0",
+                                              "hostMax":  "0.x",
+                                              "api":  "1"
+                                          },
+                        "permissions":  [
+                                            {
+                                                "id":  "ui.panel",
+                                                "risk":  "low",
+                                                "reason":  "Shows the Onion Check panel in Settings \u003e Plugins."
+                                            },
+                                            {
+                                                "id":  "network.tor",
+                                                "risk":  "medium",
+                                                "reason":  "Checks endpoint reachability through the local Tor SOCKS proxy."
+                                            }
+                                        ],
+                        "dependencies":  [
+
+                                         ],
+                        "conflicts":  [
+
+                                      ],
+                        "minimumSafeVersion":  "0.1.0-alpha.1",
+                        "revoked":  false
+                    }
+                ],
+    "revocations":  [
+
+                    ]
 }
