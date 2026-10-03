@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T15:42:52.4313903+00:00",
-  "expiresAt": "2026-10-10T15:42:52.4313903+00:00",
+  "generatedAt": "2026-10-03T15:57:29.1588124+00:00",
+  "expiresAt": "2026-10-10T15:57:29.1588124+00:00",
   "publisherKeys": [
     {
       "keyId": "torchim-official-plugins-2026-01",
@@ -20,16 +20,16 @@
       "id": "org.torchim.darknet-link-catalog",
       "name": "Darknet Link Catalog",
       "summary": "Browse darknet and web link references with Tor reachability checks. Open from Services -> DLC.",
-      "version": "0.1.0-alpha.5",
+      "version": "0.1.0-alpha.6",
       "channel": "alpha",
       "publisherKeyId": "torchim-official-plugins-2026-01",
       "trust": "official",
-      "packageSha256": "532a91fe3ce9a3549ee0925b918fe2f5fd38cfb4947e430ac87da62e703cb8a6",
-      "size": 26986,
+      "packageSha256": "6653914e4e2fdbd52f13b295934c6411ef64f22278c83bb264d0239106a5b053",
+      "size": 26984,
       "mirrors": [
         {
           "id": "primary",
-          "url": "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.darknet-link-catalog-v0.1.0-alpha.5/org.torchim.darknet-link-catalog-0.1.0-alpha.5.tplugin"
+          "url": "https://github.com/architector-dev/TORchIM-public/releases/download/plugin-org.torchim.darknet-link-catalog-v0.1.0-alpha.6/org.torchim.darknet-link-catalog-0.1.0-alpha.6.tplugin"
         }
       ],
       "compatibility": {
@@ -62,7 +62,7 @@
         }
       ],
       "conflicts": [],
-      "minimumSafeVersion": "0.1.0-alpha.5",
+      "minimumSafeVersion": "0.1.0-alpha.6",
       "revoked": false
     },
     {

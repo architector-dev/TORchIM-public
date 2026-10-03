@@ -1,2 +1,2 @@
-7dbdf9459963aed8a3508dde37fc0f93644a24685af4c4fee171d931ee2d3dce  plugin-registry.json
-07db0c46cd002b6250a1a9347e9dd5b7a6c73a86de719b4c3f7e08e49dc2550f  plugin-registry.json.sig
+22c4b7d012e849215dc8eede63aafbe00ed27b272545a9e875ca056935f65213  plugin-registry.json
+0b08341c9eceb011ad20dafa21a03879e172d19721fbe23355039f22a0e68152  plugin-registry.json.sig
